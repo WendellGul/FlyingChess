@@ -7,6 +7,195 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/chessBoard"
     tools:context="com.hy.lyx.fb.gw.wyx.lks.flyingchess.ChessBoardAct">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:id="@+id/pause"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice"
+        android:id="@+id/dice"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/dice2" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/G1"
+        android:background="@drawable/g1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/G2"
+        android:background="@drawable/g1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/G3"
+        android:background="@drawable/g1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/G4"
+        android:background="@drawable/g1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/B3"
+        android:background="@drawable/b1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/B1"
+        android:background="@drawable/b1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/B2"
+        android:background="@drawable/b1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/B4"
+        android:background="@drawable/b1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/Y4"
+        android:background="@drawable/y1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/Y3"
+        android:background="@drawable/y1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/Y1"
+        android:background="@drawable/y1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/Y2"
+        android:background="@drawable/y1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/R2"
+        android:background="@drawable/r1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/R1"
+        android:background="@drawable/r1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/R3"
+        android:background="@drawable/r1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/R4"
+        android:background="@drawable/r1"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/map"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:adjustViewBounds="true"
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/dice1"
+        android:layout_below="@+id/pause"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/dice2"
+        android:layout_below="@+id/dice1"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/dice3"
+        android:layout_below="@+id/dice2"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/dice4"
+        android:layout_below="@+id/dice3"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/dice5"
+        android:layout_below="@+id/dice4"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/dice6"
+        android:layout_below="@+id/dice5"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
